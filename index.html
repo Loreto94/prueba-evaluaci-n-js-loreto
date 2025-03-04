@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./styles.css/">
 </head>
-<script src="./JS/main.js"></script>
-<body>
-   <h1>Adivina el número</h1>
-   <form action="">
 
-    <label for="number">Introduce aquí tu número</label>
-    <input type="number" id="number">
+<body class="main">
 
-    <button>Prueba</button>
+    <form class="js__main__form" action="">
+        <h1>Adivina el número</h1>
 
-    <label for="clue">Pista: escribe el número y dale a prueba</label>
-    <input type="text" id="clue">
+        <label for="number">Introduce aquí tu número</label>
+        <input class="js__input__number" type="number" id="number">
 
-    <label for="attempts">Número de intentos: </label>
-    <input type="number" id="attempts">
-   
-</form>
+        <button type="submit" class="prueba">Prueba</button>
+
+        <label for="clue"></label>
+        <input type="text" id="clue">
+        <p class="js__clue"></p>
+
+        <label for="attempts"></label>
+        <input type="number" id="attempts">
+
+    </form>
+    <script src="./JS/main.js"></script>
 </body>
+
 </html>
